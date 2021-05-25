@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>Mysite0</title>
+
+        <link rel="stylesheet" href="../../assets/css/common.css">
+        <link rel="stylesheet" href="../../assets/css/board.css">
+
+    </head>
+
+    <body>
+        <div id="wrap">
+
+            <!-- 해더 영역 -->
+            <div id="header" class="clearfix">
+                <!-- 사이트 로고 -->
+                <h1><a href="">MySite</a></h1>
+
+                <ul>
+                    <li><a href="">로그인</a></li>
+                    <li><a href="">회원가입</a></li>
+                </ul> 
+            </div>
+            <!-- //해더 영역 -->   
+
+
+            <!-- 네비게이션(상단메뉴 GNB) 영역 -->   
+            <div id="nav" class="clearfix">
+                <ul>
+                    <li>입사지원서</li>
+                    <li>게시판</li>
+                    <li>갤러리</li>
+                    <li class="last">방명록</li>
+                </ul>
+            </div>
+            <!-- //네비게이션(상단메뉴 GNB) 영역 --> 
+
+            <!-- 컨텐츠 영역-->
+            <div id=contents class="clearfix">
+
+                <!-- 왼쪽메뉴-->
+                <div id="aside">
+                    <h2>
+                        게시판
+                    </h2>
+
+                    <ul>
+                        <li>일반게시판</li>
+                        <li>댓글게시판</li>
+                        <li>첨부게시판</li>
+                    </ul>
+                </div>
+                <!-- //왼쪽메뉴 -->
+
+                <!-- 메인 영역 -->
+                <div id="main">
+                    <!-- main-head -->
+                    <div id="main-head" class="clearfix">
+                        <div>
+                            <h3>일반게시판</h3>
+                        </div>
+                        <ul class="clearfix">
+                            <li>홈</li>
+                            <li>게시판</li>
+                            <li class="last">일반게시판</li>
+                        </ul>
+                    </div>    
+
+                    <!-- main body -->
+                    <div id="main-body">
+                        <div id="board">
+                            <div id="search-area" class="clearfix">
+                                <form action="#" method="get">
+                                    <input type="text" name="keyword" value="">
+                                    <button type="submit">검색</button>
+                                </form> 
+                            </div>
+
+
+                            <div id="graph">
+                                <table>
+                                    <colgroup>
+                                        <col style="width: 50px;">
+                                        <col style="width: 450px;">
+                                        <col style="width: 100px;">
+                                        <col style="width: 100px;">
+                                        <col style="width: 100px;">
+                                        <col style="width: 100px;">
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <th>번호</th>
+                                            <th>제목</th>
+                                            <th>글쓴이</th>
+                                            <th>조회수</th>
+                                            <th>작성일</th>
+                                            <th>관리</th>
+                                        </tr>
+                                    </thead>
+                        
+                                    <tbody>
+                                        <tr>
+                                            <td>123</td>
+                                            <td class="blue">게시판 게시글입니다.</td>
+                                            <td>정우성</td>
+                                            <td>1232</td>
+                                            <td>dddddd</td>
+                                            <td>삭제</td>
+                                        </tr>
+                                        <tr>
+                                            <td>123</td>
+                                            <td class="blue">게시판 게시글입니다.</td>
+                                            <td>정우성</td>
+                                            <td>1232</td>
+                                            <td>dddddd</td>
+                                            <td>삭제</td>
+                                        </tr>
+                                        <tr>
+                                            <td>123</td>
+                                            <td class="blue">게시판 게시글입니다.</td>
+                                            <td>정우성</td>
+                                            <td>1232</td>
+                                            <td>dddddd</td>
+                                            <td>삭제</td>
+                                        </tr>
+                                        <tr>
+                                            <td>123</td>
+                                            <td class="blue">게시판 게시글입니다.</td>
+                                            <td>정우성</td>
+                                            <td>1232</td>
+                                            <td>dddddd</td>
+                                            <td>삭제</td>
+                                        </tr>
+                                        <tr class="bottom">
+                                            <td>123</td>
+                                            <td class="blue">게시판 게시글입니다.</td>
+                                            <td>정우성</td>
+                                            <td>1232</td>
+                                            <td>dddddd</td>
+                                            <td>삭제</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- //게시판 리스트 -->
+
+
+                            <!-- 페이징 -->
+                            <div id="pager">
+                                <ol class="clearfix"> 
+                                    <li><a href="">◀️</a></li>
+                                    <li><a href="">1</a></li>
+                                    <li><a href="">2</a></li>
+                                    <li><a href="">3</a></li>
+                                    <li><a href="">4</a></li>
+                                    <li><a href="">5</a></li>
+                                    <li><a class="active" href="">6</a></li>
+                                    <li><a href="">7</a></li>
+                                    <li><a href="">8</a></li>
+                                    <li><a href="">9</a></li>
+                                    <li><a href="">10</a></li>
+                                    <li><a href="">▶️</a></li>
+                                </ol>
+
+                                <a id="btn-write" href="">글쓰기</a>
+
+                            </div>
+                            <!-- //페이징 -->
+                            
+                        </div>
+                        <!-- board -->
+                        
+                    </div> 
+                    <!-- //main body --> 
+
+
+
+                </div>  
+                <!-- //메인영역 -->  
+                    
+                    
+            </div>
+            <!--// 컨텐츠 영역 -->
+
+
+            <!-- 푸터 --> 
+            <div id="footer">
+                <p>copyright (c)2021 이시즌. All right reserved</p>
+            </div>
+            <!-- //푸터 --> 
+        </div>
+        <!--// wrap-->
+
+
+    </body>
+</html>

@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+
+body{
+    font-family: "맑은 고딕";
+    font-size: 17px;
+}
+
+h2{font-size: 25px;}
+h3{font-size: 20px;}
+
+h1{
+    font-family: "궁서";
+    font-size: 30px;
+    letter-spacing: 15px;
+}
+
+.ita{font-style: italic; font-weight: bold; color: #0000ff;}
+.ita2{font-style: italic; font-weight: bold; color: #ff0000;}
+
+.line{font-style: italic; font-weight: bold; color: #ff0000;}
+.bold_1{text-decoration: underline; color: #00ff00;}
+.mill{font-weight: bold; color: #ff0000;}
+.int-number{text-decoration: underline;}
+
+
+
+
+
+/*2. 역사 의 모든 문단 영역 들여쓰기 30px, 2. 역사 제목 및 하위까지 회색 배경으로 하기*/
+h2,h3{
+    text-indent: 30px;
+}
+
+
+
+
+
+
+
+.bold_2{font-weight: bold; color: #00ff00;}
+.ita3{font-style: italic; color: #0000ff;}
+.bold_3{font-weight: bold; color: #ff0000;}
+
+#sqre{
+    list-style-type: square;
+}
+
+.no{
+    list-style-type: none;
+}
+
+tr>th{background-color: #c8ebfa;}
+tbody>tr:hover{background-color: #edd3ed;}
+.right{text-align: right;}
+.right:before{content: "약";}
+.right:after{content: "(MB/초)";}
+ 
+
+a:link {color: #000000; text-decoration: none;}
+a:visited {color: #000000; text-decoration: none;}
+a:hover {color: #0000ff; text-decoration: underline;}
+a:active {color: #0000ff; text-decoration: underline;}
+
+
+
+
+
+
+
+
+
+

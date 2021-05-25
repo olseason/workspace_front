@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <!-- 스타일시트자리 -->
+
+        <style>
+            div{
+                background-color: #ff0000;;
+            }
+
+            .bg-img{
+                    background-image: url(./img/back_img01.jpg);
+                    width: 2000px;
+                    height: 2000px;
+                    background-repeat: no-repeat;
+                    background-position: left bottom;
+            }
+
+            /*cover는 하나의 사진으로 그 공간을 채움(찌그러질 수 있음), 
+            contain은 지정 사진보다 클 경우 그 사진을 반복함*/
+
+
+            .bg-img2{
+                width: 4000px;
+                height: 2000px;
+                background: #022250 url(./img/back_img01.jpg) no-repeat fixed center center;
+            }
+
+            .bg-img3{
+                background: #7da7d9 url(./img/back_img02.jpg) repeat-y fixed bottom center;
+                width: 4000px;
+                height: 2000px;
+            }
+        </style>
+
+    </head>
+
+
+
+    <body>
+
+
+        <br><br>
+
+        <div class="bg-img">
+            b
+        </div>
+        
+        <!--비교해볼 것-->
+        <!--
+        <div>
+            a<img src="img/back_img01.jpg">
+        </div>
+        -->
+
+        <div class="bg-img2"> 
+
+        </div>
+
+        <div class="bg-img3">
+
+        </div>
+
+    </body>
+
+</html>

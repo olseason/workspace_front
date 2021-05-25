@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body, div, ul, li, dl, dt, ol, h1, h2, h3, h4, h5, h6, input,
+fieldset, legend, p, select, table, th, td, tr, textarea,
+button, form {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-family: "나눔바름고딕";
+    font-size: 16px;
+}
+
+
+#board{
+    width: 717px;
+
+}
+
+label{
+    width: 80px;
+    display: inline-block;
+}
+
+.form-group{
+    padding: 19px 10px 19px 10px;
+    border-bottom: 1px solid #c9c9c9;
+    width: 700px;
+}
+
+
+#introduce{
+    width: 500px;
+    height: 200px;
+}
+
+input[type="radio"]{
+    margin: 0px 0px 0px 0px;
+}
+
+input[type="checkbox"]{
+    margin: 0px 0px 0px 0px;
+}
+
+
+
+.btn-area {
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+}
+
+input[name="adress"]{
+    margin: 3px 0px 0px 84px;
+    width: 300px;
+}
